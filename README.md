@@ -15,7 +15,7 @@ efficiency, the adversary is said to have confused the classifier.
 The two networks are coupled in a way that the training is done simultaneously, and
 the combined loss to be minimized is given by:
 
-loss = loss<sub>clf − λ · loss adv
+loss = loss<sub>clf</sub> − λ · loss <sub>adv</sub>
 
 The parameter λ is accordingly added to the network hyper-parameter space to be
 optimized. It defines the activity of the adversary. A greater value of λ indicates high
@@ -27,8 +27,6 @@ __In this problem__:
 - Y -- The target/label associated with each event. Y=1 represents a signal & Y=0 indicates a background
 - Z -- The nuissance paramater, chosen to be dPhi, representing the angle between the reconstructed W-boson and lepton
 - Fnalweight -- The cross-section of each event
-
-
 
 # <ins>References<ins>
 [1] CMS collaboration (2017). Search for supersymmetry in events with one lepton
