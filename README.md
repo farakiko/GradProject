@@ -15,18 +15,22 @@ efficiency, the adversary is said to have confused the classifier.
 The two networks are coupled in a way that the training is done simultaneously, and
 the combined loss to be minimized is given by:
 
-__loss = loss<sub>clf</sub> − λ · loss <sub>adv</sub>__
+_**loss = loss<sub>clf</sub> − λ · loss <sub>adv</sub>**_
 
 The parameter λ is accordingly added to the network hyper-parameter space to be
 optimized. It defines the activity of the adversary. A greater value of λ indicates high
 adversary activity, which results in high confusion. An optimal value of λ allows for the
 decorrelation at the expense of little classification efficiency loss.
 
-__In this problem__:
+__In this problem:__
 - X -- The input of the network represents the event paramaters (or so called features)
 - Y -- The target/label associated with each event. Y=1 represents a signal & Y=0 indicates a background
 - Z -- The nuissance paramater, chosen to be dPhi, representing the angle between the reconstructed W-boson and lepton
 - Fnalweight -- The cross-section of each event
+
+__Goal:__
+Use the adversarial network to decorrelate the output of the classifier from the nuissance paramater dPhi.
+This decorrelation will be further tested by computing a Ratio that should equal 1 for complete decorrelation.
 
 # <ins>References<ins>
 [1] CMS collaboration (2017). Search for supersymmetry in events with one lepton
