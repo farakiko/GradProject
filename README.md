@@ -21,7 +21,7 @@ efficiency, the adversary is said to have confused the classifier.
 
 The two networks are coupled in a way that the training is done simultaneously, and
 the combined loss to be minimized is given by:
-loss = loss clf − λ · loss adv
+$loss = loss clf − λ · loss adv$
 
 The parameter λ is accordingly added to the network hyper-parameter space to be
 optimized. It defines the activity of the adversary. A greater value of λ indicates high
@@ -31,5 +31,9 @@ decorrelation at the expense of little classification efficiency loss.
 __In this problem__:
 - X -- The input of the network represents the event paramaters (or so called features)
 - Y -- The target/label associated with each event. A Y-value of 1 indicates a signal & Y-value of 0 indicates a background
-- Z -- The nuissance paramater, chosen to be dPhi, which represnts the angle between the reconstructed W-boson and lepton,
+- Z -- The nuissance paramater, chosen to be dPhi, representing the angle between the reconstructed W-boson and lepton
 - Fnalweight -- The cross-section of each event
+
+
+
+# <ins>References<ins>
