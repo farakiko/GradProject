@@ -14,9 +14,7 @@ efficiency, the adversary is said to have confused the classifier.
 
 The two networks are coupled in a way that the training is done simultaneously, and
 the combined loss to be minimized is given by:
-\begin{equation}
-loss = loss clf − λ · loss adv 
-\end{equation}
+<img src="https://render.githubusercontent.com/render/math?math= loss = loss clf − λ · loss adv">
 
 The parameter λ is accordingly added to the network hyper-parameter space to be
 optimized. It defines the activity of the adversary. A greater value of λ indicates high
