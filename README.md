@@ -33,5 +33,7 @@ __In this problem__:
 [1] CMS collaboration (2017). Search for supersymmetry in events with one lepton
 and multiple jets in proton-proton collisions at sqrt(s) = 13 TeV. Available at:
 https://arxiv.org/abs/1609.09386
+
 [2] Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S.,
-Courville, A., and Bengio,
+Courville, A., and Bengio, Y. (2014). Generative adversarial nets. https://arxiv.
+org/abs/1406.2661
