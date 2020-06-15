@@ -28,7 +28,7 @@ __In this problem:__
 - X -- The input of the network represents the event paramaters (or so called features)
 - Y -- The target/label associated with each event. Y=1 represents a signal & Y=0 indicates a background
 - Z -- The nuissance paramater, chosen to be dPhi, representing the angle between the reconstructed W-boson and lepton
-- Fnalweight -- The cross-section of each event
+- Finalweight -- The cross-section of each event
 
 __Goal:__
 Use the adversarial network to decorrelate the output of the classifier from the nuissance paramater dPhi.
