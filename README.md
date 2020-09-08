@@ -1,5 +1,7 @@
 # Graduation Project
 
+This work was produced at the DESY site under the supervison of Dr. Dirk Kruecker and Dr. Isabell Melzer-Pellmann, for a duration of two months. 
+
 # <ins>Abstract<ins>
 In the inclusive single-lepton search published by CMS [1] for 36.5 f b − 1 of 13 TeV proton-proton collisions data, a Data-Driven Background Estimation was performed. This search may be improved by the use of machine learning techniques, and to be able to perform similar Data-Driven Background Estimation, the classifier output have to be uncorrelated to one of the event parameters with good signal-to-background separation. To achieve such classification an Advesarial Network was constructed, studied and tested on the same simulation data which was used in the SUSY search by CMS [1].
  
