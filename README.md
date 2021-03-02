@@ -27,7 +27,7 @@ adversary activity, which results in high confusion. An optimal value of λ allo
 decorrelation at the expense of little classification efficiency loss.
 
 __In this problem:__
-- X -- The input of the network represents the event paramaters (or so called features)
+- X -- The input of the network represents the event parameters (or so called features)
 - Y -- The target/label associated with each event. Y=1 represents a signal & Y=0 indicates a background
 - Z -- The nuissance paramater, chosen to be dPhi, representing the angle between the reconstructed W-boson and lepton
 - Finalweight -- The cross-section of each event
